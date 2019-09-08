@@ -1,45 +1,46 @@
-# Awwards Clone
-#### This is an application that lets the user post projects to be rated , November 20, 2018
-#### By **Maxwell Kimutai**
-## Description
-This is an application that lets the user submit a project to be displayed on the website. Once it is displayed other users can view and vote for the projects based on content, usability and design.
-## BDD
-The program lets the user upload projects
-* Example input: Submit form
-* Example output: Project details and added to website
+# Awards
 
-The program lets the user search for other projects
-* Example input: User keys in search term
-* Example output: displays results based on search term
+<img src="/static/images/.png">
 
-The program lets the user vote for a projects
-* Example input: User submits a form with their vote
-* Example output: Vote tally changes based on their vote
+This is a website that allows a user to post his/her projects and other users to rate them according to design, usability and content.
 
-## Live Site
-https://kace-awards.herokuapp.com/
+#### A user of the application will be able to:
 
-## Prerequisites
-* Python
-* Pip
-* Django
-* Postgres
+- View posted projects and their details.
+- Post a project to be rated.
+- Rate other users' projects.
+- Search for projects.
+- View his/her profile page.
 
 ## Setup/Installation Requirements
-* https://github.com/maxwellkimutai/awards
-* download the zip file
-* unzip it on your documents folder
-* open the folder on your preferred text/code editor
-* code away
-## Known Bugs
-None
-## Technologies used
-* Python3.7
-* Django
-* Postgres
-* pip
-## Support and contact details
-Contact Maxwell Kimutai on +254713510682
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes:
+
+- go to my repo on github and clone it - https://github.com/eyern/awards-eyern.git
+- create a folder on your computer, create and activate a virtual environment
+- download django and install all the necessary requirements to be able to run the app
+- finally do a ./manage.py runserver to be able to run it on your browser
+
+
+### Technologies used
+
+- Python3.6
+- Django 1.11
+- HTML
+- CSS
+- Bootstrap4
+- Heroku
+- JavaScript
+
+## Known Bugs, Support & Contact Information
+
+This is still a work in progress and will continue to be worked on. But for any issues encountered and any contributions to the code or design, kindly reach out to me on my email address: eyernfuture@gmail.com.
+
+### Author
+
+Ian Kipkoech
+
 ### License
-MIT
-Copyright (c) 2018 **Maxwell Kimutai**
+
+This project is licensed under the MIT License - see the LICENSE.md file for details
+
