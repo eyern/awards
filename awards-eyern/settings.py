@@ -80,7 +80,7 @@ MIDDLEWARE = [
 
 ]
 
-ROOT_URLCONF = 'awards.urls'
+ROOT_URLCONF = 'awards-eyern.urls'
 
 TEMPLATES = [
     {
@@ -99,7 +99,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'awards.wsgi.application'
+WSGI_APPLICATION = 'awards-eyern.wsgi.application'
 
 
 # Database
@@ -108,6 +108,16 @@ WSGI_APPLICATION = 'awards.wsgi.application'
 
 # Password validation
 # https://docs.djangoproject.com/en/2.0/ref/settings/#auth-password-validators
+
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'award',
+        'USER': 'iankipkoech',
+        'PASSWORD': '1234'
+    }
+}
+
 
 AUTH_PASSWORD_VALIDATORS = [
     {
