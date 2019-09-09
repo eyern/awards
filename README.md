@@ -1,6 +1,6 @@
 # Awards
 
-<img src="/static/images/.png">
+<img src="/media/images/prog.png">
 
 This is a website that allows a user to post his/her projects and other users to rate them according to design, usability and content.
 
