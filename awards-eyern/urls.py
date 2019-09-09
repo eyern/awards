@@ -20,9 +20,9 @@ from django.conf.urls import url,include
 from django.contrib.auth import views
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
+    url('admin/', admin.site.urls),
     url(r'',include('award.urls')),
-    url(r'^accounts/register/'),
+    # url(r'^accounts/register/'),
         # RegistrationView.as_view(success_url='/accounts/login'),
         # name='django_registration_register'),
     url(r'^accounts/', include('django_registration.backends.one_step.urls')),
